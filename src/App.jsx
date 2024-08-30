@@ -51,7 +51,7 @@ function App() {
     <>
       <div className="min-h-screen main">
         <Nav />
-        <div className="flex flex-col md:flex-row md:flex-wrap bg-cover bg-center  pb-10">
+        <div className="flex flex-col md:flex-row md:flex-wrap bg-cover bg-center gap-2 pb-10">
           {foodData.map((food, index) => (
             <Card foodData={food} key={index} />
           ))}
